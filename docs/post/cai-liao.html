@@ -10,9 +10,23 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="">
+<meta name="description" content="**神话故事**
+1.孙悟空与牛魔王
+2.八仙过海
+3.哪吒与雷震子
+4.关羽与张飞
+_国外神话_
+1. **阿喀琉斯与帕特罗克洛斯（希腊神话）**
+   - **内容**：阿喀琉斯和帕特罗克洛斯是希腊神话中的亲密朋友，两人在特洛伊战争中并肩作战。">
 <meta property="og:title" content="材料">
-<meta property="og:description" content="">
+<meta property="og:description" content="**神话故事**
+1.孙悟空与牛魔王
+2.八仙过海
+3.哪吒与雷震子
+4.关羽与张飞
+_国外神话_
+1. **阿喀琉斯与帕特罗克洛斯（希腊神话）**
+   - **内容**：阿喀琉斯和帕特罗克洛斯是希腊神话中的亲密朋友，两人在特洛伊战争中并肩作战。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://oylili.github.io/post/cai-liao.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -73,7 +87,49 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"></div>
+<div class="markdown-body" id="postBody"><p><strong>神话故事</strong><br>
+1.孙悟空与牛魔王<br>
+2.八仙过海<br>
+3.哪吒与雷震子<br>
+4.关羽与张飞<br>
+<em>国外神话</em></p>
+<ol>
+<li>
+<p><strong>阿喀琉斯与帕特罗克洛斯（希腊神话）</strong></p>
+<ul>
+<li><strong>内容</strong>：阿喀琉斯和帕特罗克洛斯是希腊神话中的亲密朋友，两人在特洛伊战争中并肩作战。帕特罗克洛斯在战斗中被杀，阿喀琉斯为了给他复仇，重新加入战斗并杀死了赫克托耳。</li>
+<li><strong>关键词</strong>：友谊、战争、复仇、牺牲</li>
+</ul>
+</li>
+<li>
+<p><strong>奥德修斯与赫尔墨斯（希腊神话）</strong></p>
+<ul>
+<li><strong>内容</strong>：在荷马史诗《奥德赛》中，奥德修斯在回家的途中遇到了各种困难。神使赫尔墨斯帮助他，因为他欣赏奥德修斯的智慧和勇气。赫尔墨斯帮助奥德修斯克服了许多障碍，最终回到家乡。</li>
+<li><strong>关键词</strong>：智慧、勇气、帮助、忠诚</li>
+</ul>
+</li>
+<li>
+<p><strong>赫尔墨斯与阿波罗（希腊神话）</strong></p>
+<ul>
+<li><strong>内容</strong>：赫尔墨斯和阿波罗是希腊神话中的两位神祇，他们之间有着深厚的友谊。赫尔墨斯曾偷走阿波罗的牛，但后来两人和解，成为了朋友。</li>
+<li><strong>关键词</strong>：神祇、和解、友谊、智慧</li>
+</ul>
+</li>
+<li>
+<p><strong>吉尔伽美什与恩基杜（苏美尔神话）</strong></p>
+<ul>
+<li><strong>内容</strong>：吉尔伽美什和恩基杜是苏美尔史诗中的两位英雄，他们最初是敌人，但后来成为了朋友。他们一起经历了许多冒险，最终恩基杜的死亡让吉尔伽美什开始寻找永生的秘密。</li>
+<li><strong>关键词</strong>：英雄、冒险、友谊、永生</li>
+</ul>
+</li>
+<li>
+<p><strong>罗摩与哈奴曼（印度神话）</strong></p>
+<ul>
+<li><strong>内容</strong>：在印度史诗《罗摩衍那》中，罗摩是主角，而哈奴曼是一只神猴，他帮助罗摩寻找被恶魔拉瓦那绑架的妻子悉多。哈奴曼的忠诚和力量帮助罗摩克服了许多困难。</li>
+<li><strong>关键词</strong>：忠诚、帮助、冒险、友谊</li>
+</ul>
+</li>
+</ol></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -132,7 +188,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 
 function openComments(){
