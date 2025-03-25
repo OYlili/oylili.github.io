@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://oylili.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://oylili.github.io</link></image><lastBuildDate>Tue, 25 Mar 2025 12:15:50 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>视频脚本</title><link>https://oylili.github.io/post/shi-pin-jiao-ben.html</link><description>### _**拍摄时请把拍摄工具拿好 尽量不要出现剧烈抖动 以下任选一个**_
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://oylili.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://oylili.github.io</link></image><lastBuildDate>Tue, 25 Mar 2025 12:18:26 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>视频脚本</title><link>https://oylili.github.io/post/shi-pin-jiao-ben.html</link><description>### _**拍摄时请把拍摄工具拿好 尽量不要出现剧烈抖动 以下任选一个**_
 ---
+
+**_上传见下一条博文_**
 
 ### **方案1：时光相册（蒙太奇）**  
 **主题**：用回忆串联孝的传承  
-```markdown  
+
 | 镜头序号 | 镜头时长 | 景别   | 镜头运动 | 画面内容                                                                 | 解说词                           | 音乐                     |  
 |----------|----------|--------|----------|--------------------------------------------------------------------------|----------------------------------|--------------------------|  
 | 1        | 3秒      | 特写   | 固定     | 学生翻开旧相册，指尖停留在一张母亲年轻时的照片上。</description><guid isPermaLink="true">https://oylili.github.io/post/shi-pin-jiao-ben.html</guid><pubDate>Tue, 25 Mar 2025 12:07:21 +0000</pubDate></item><item><title>视频上传</title><link>https://oylili.github.io/post/shi-pin-shang-chuan.html</link><description>https://upfile.live/zh-cn/
